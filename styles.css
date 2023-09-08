@@ -13,8 +13,9 @@
 }
 .mainBodyContent {
   background-color: aliceblue;
-  width: 30%;
+  width: max-content;
   height: 60%;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
