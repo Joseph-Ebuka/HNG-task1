@@ -7,7 +7,7 @@ const timeInMilliSeconds = ()=> {
  timeInMilliSeconds()
  setInterval(timeInMilliSeconds, 100)
 const currentDate = () => {
-    const date = ('Thursday')
+    const date = ('Friday')
     const todaysDate = document.getElementById('date')
     todaysDate.innerHTML = date
 }

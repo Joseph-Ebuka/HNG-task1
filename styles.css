@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .mainBody {
   background-color: cadetblue;
@@ -14,7 +14,7 @@
 .mainBodyContent {
   background-color: aliceblue;
   width: max-content;
-  height: 60%;
+  height: max-content;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -34,39 +34,39 @@
   height: 100px;
   border-radius: 50%;
 }
-.currentDayOfTheWeek{
-    display: flex;
-    background-color: bisque;
-    padding: 10px;
-    border-radius: 10px;
-    justify-content: space-evenly;
-    width: 300px;
+.currentDayOfTheWeek {
+  display: flex;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  width: 300px;
 }
-.currentUTC-Time{
-    display: flex;
-    background-color: bisque;
-    padding: 10px;
-    border-radius: 10px;
-    justify-content: space-evenly;
-    width: 300px;
+.currentUTC-Time {
+  display: flex;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  width: 300px;
 }
-.track{
-    background-color: aqua;
-    padding: 10px;
-    border-radius: 10px;
-
+.track {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
 }
-.githubUrl{
-    background-color: black;
-    color: #fff;
-    padding: 10px;border-radius: 10px;
-    margin-top: 10px;
+.githubUrl {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
-.githubUrl:hover{
-    background-color: rgba(0, 0, 0, 0.74);
-    cursor: pointer;
+.githubUrl:hover {
+  background-color: rgba(0, 0, 0, 0.74);
+  cursor: pointer;
 }
-.githubUrl a{
-    text-decoration: none;
-    color: #fff;
+.githubUrl a {
+  text-decoration: none;
+  color: #fff;
 }
